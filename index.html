@@ -17,14 +17,17 @@
     <link rel="stylesheet" href="css/style.css">
     <title>PH Edu</title>
 </head>
-<body>
+<body style="font-family: 'Poppins', sans-serif;">
     <header class="container">
         <!-- Navbar Menu Start -->
         <nav class="container navbar navbar-expand-lg fixed-top bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">PH Edu</a>
-                <button
-                    class="btn border-1 border-info text-info fw-bold py-1 px-3 d-none d-md-block d-sm-none d-lg-none me-md">Register</button>
+                <a class="navbar-brand fw-bolder" href="#">PH Edu</a>
+                <div class="w-75 d-none d-md-block d-sm-none d-lg-none me-md d-md-flex justify-content-end">
+                    <button
+                        class="btn border-1 border-info text-info fw-bold py-1 px-3 ">Register</button>
+                </div>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,19 +41,19 @@
                             <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#deals">Deals</a>
+                            <a class="nav-link" href="#learning">Learning</a>
                         </li>
                         <li class="nav-item px-4">
                             <a class="nav-link" href="#success">Success</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#deals">Deals</a>
                         </li>
                         <li class="nav-item px-4">
                             <a class="nav-link" href="#register">Register</a>
                         </li>
                     </ul>
-                    <button class="btn border-1 border-info text-info fw-bold py-1 px-3  d-block d-sm-block d-md-none d-lg-block">Register</div>
+                    <button class="btn border-1 border-info text-info fw-bold py-1 px-3  d-block d-sm-block d-md-none d-lg-block">Register</button>
                 </div>
             </div>
         </nav>
@@ -61,26 +64,26 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block my-md-5 py-md-5 pt-5  my-lg-5 py-lg-5  my-xl-5 py-xl-5 my-sm-5 py-sm-5">
+                        <div class="carousel-caption d-block d-flex align-items-center justify-content-center flex-column w-75 h-75">
                             <h5 class="fw-bold">Get Started Digital Learning</h5>
                             <p><small>It is a long established fact that a reader will be distracted.</small> </p>
-                            <button class="btn btn-info text-white fw-bold">Get Started</button>
+                            <button class="btn btn-info text-white fw-bold mb-0">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block my-md-5 py-md-5  my-lg-5 py-lg-5  my-xl-5 py-xl-5 my-sm-5 py-sm-5">
+                        <div class="carousel-caption d-block d-flex align-items-center justify-content-center flex-column w-75 h-75">
                             <h5 class="fw-bold">Get Started Digital Learning</h5>
                             <p><small>It is a long established fact that a reader will be distracted.</small> </p>
-                            <button class="btn btn-info text-white fw-bold">Get Started</button>
+                            <button class="btn btn-info text-white fw-bold mb-0">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block my-md-5 py-md-5  my-lg-5 py-lg-5  my-xl-5 py-xl-5 my-sm-5 py-sm-5">
+                        <div class="carousel-caption d-block d-flex align-items-center justify-content-center flex-column w-75 h-75">
                             <h5 class="fw-bold">Get Started Digital Learning</h5>
                             <p><small>It is a long established fact that a reader will be distracted.</small> </p>
-                            <button class="btn btn-info text-white fw-bold">Get Started</button>
+                            <button class="btn btn-info text-white fw-bold mb-0">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -98,8 +101,8 @@
     </header>
     <main  class="container">
         <!-- discover courses start  -->
-        <section class="bg-white w-100 d-flex" id="about">
-            <div class="py-5 m-auto mx-lg-5 px-lg-5 mx-xl-5 px-xl-5">
+        <section class="bg-white w-100 d-flex" id="courses">
+            <div class="m-auto mx-lg-5 px-lg-5 mx-xl-5 px-xl-5">
                 <div class="text-center mx-md-5 px-md-5 mx-lg-5 px-lg-5 align-items-center justify-content-center">
                     <h2 class="pb-2 fw-bolder">Discover Our Popular Courses</h2>
                     <p class="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -108,7 +111,7 @@
         </section>
         <!-- discover courses end  -->
         <!-- Courses start  -->
-        <section class="my-5" id="courses">
+        <section class="my-5">
             <div class="row row-cols-1 row-cols-lg-2 g-4">
                 <div class="col">
                     <div class="card flex-lg-row flex-md-row flex-column">
@@ -178,7 +181,7 @@
         </section>
         <!-- Courses End  -->
         <!-- Explore ELearning start  -->
-        <section class="my-5">
+        <section class="my-5" id="learning">
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-5 col-lg-5 col-xl-5 col-xxl-5 col-12">
@@ -217,7 +220,7 @@
             <div class="row p-5">
                 <div class="col-xl-8 col-xxl-8 col-lg-8 col-12 text-white py-1 text-lg-start text-xl-start text-xxl-start text-md-center text-sm-center text-center ">
                     <h2>Ready to join?</h2>
-                    <p class="text-white-50">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p class="text-white opacity-75">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div class="col-xl-4 col-xxl-4 col-lg-4 col-12 py-2 py-lg-5 py-xl-5 py-xxl-5 text-lg-end text-xl-end text-xxl-end text-md-center text-sm-center text-center ">
                     <!-- Button trigger modal -->
@@ -260,7 +263,7 @@
         </section>
         <!-- For Join Us End  -->
         <!-- Successful students start  -->
-        <section class="my-5">
+        <section class="my-5" id="success">
             <div class="py-5 bg-white">
                 <div class="d-flex justify-content-between align-items-center flex-column">
                     <h2 class="pb-2">Meet Our Successfull Students</h2>
@@ -316,7 +319,6 @@
             </div>
         </section>
         <!-- Successful students End -->
-        
         <!-- Freequently asked questions start  -->
         <section class="my-5">
             <div class="py-5 bg-white">
@@ -348,7 +350,7 @@
                                 </h2>
                                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                                     data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</div>
+                                    <div class="accordion-body">Bootstrap comes with a set of pre-designed responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</div>
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -367,7 +369,7 @@
                                             
                                             <li><strong>padding:</strong> This property is used to create space around the element, inside any defined border.</li>
 
-                                            <li><strong>border:</strong> This property is used to cover the content & any padding, & also allows to set the style, color, and width of the border.</li>
+                                            <li><strong>border:</strong> This property is used to cover the content & any padding, & also allows to set the design, color, and width of the border.</li>
 
                                             <li><strong>margin:</strong> This property is used to create space around the element ie., around the border area.</li>
                                         </ul>
@@ -433,7 +435,7 @@
     <footer class="bg-black">
         <div class="footer_content py-5">
             <div class="d-flex justify-content-between align-items-center flex-column">
-                <h2 class="text-white pb-2">PH Edu</h2>
+                <h2 class="text-white pb-2 fw-bolder">PH Edu</h2>
                 <p class="text-white-50 text-center">Office 41, Zawaya Buildin, Ghala Muscat,<br> Sultanate of Oman</p>
                 <p class="text-white-50">Privacy Ploicy | Terms of use</p>
                 <div class="text-white ">
